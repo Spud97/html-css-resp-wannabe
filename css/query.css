@@ -1,5 +1,58 @@
 @media screen and (max-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 120%;
+  }
+  .container {
+    max-width: 480px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    padding: 0rem 1.3rem 5rem;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .lessons .col:last-child {
+    width: 100%;
+    padding: 0rem 1.3rem;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+  
+  .steps .col:last-child {
+    width: 100%;
+    padding: 0rem 1.3rem;
+  }
+
+  .why-us .col {
+    width: 100%;
+  }
+
+  
+  .why-us .col:last-child {
+    width: 100%;
+    padding: 0rem 1.3rem;
+  }
+
+  .why-us h2 {
+    padding: 0rem 2rem;
+  }
+
+  .why-us h3:first-child {
+    padding: 0rem 2rem 0rem 0rem;
   }
 }
