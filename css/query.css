@@ -8,6 +8,7 @@
   html {
     font-size: 120%;
   }
+
   .container {
     max-width: 480px;
   }
@@ -32,7 +33,7 @@
   .steps .col {
     width: 100%;
   }
-  
+
   .steps .col:last-child {
     width: 100%;
     padding: 0rem 1.3rem;
@@ -42,7 +43,6 @@
     width: 100%;
   }
 
-  
   .why-us .col:last-child {
     width: 100%;
     padding: 0rem 1.3rem;
