@@ -1,12 +1,43 @@
+@media screen and (max-width: 1200px) {
+  header {
+    min-width: 1200px;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+  
+  .steps {
+    min-width: 1200px;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  header {
+    min-width: 768px;
+    width: 100%;
+  }
+
   .container {
     max-width: 768px;
+  }
+  
+  .steps {
+    min-width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   html {
     font-size: 120%;
+  }
+
+  header {
+    min-width: 480px;
+    width: 100%;
   }
 
   .container {
@@ -28,6 +59,11 @@
   .lessons .col:last-child {
     width: 100%;
     padding: 0rem 1.3rem;
+  }
+
+  .steps {
+    min-width: 480px;
+    width: 100%;
   }
 
   .steps .col {
